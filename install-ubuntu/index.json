@@ -16,6 +16,10 @@
       {
         "title": "Step 3 - Install PostgreSQL",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Connect to PostgreSQL",
+        "text": "step4.md"
       }
     ],
     "intro": {
