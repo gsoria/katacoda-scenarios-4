@@ -6,15 +6,15 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Configure the Package Repository",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Install the Signing Key",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Install PostgreSQL",
         "text": "step3.md"
       }
     ],
