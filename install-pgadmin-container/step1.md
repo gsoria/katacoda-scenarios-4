@@ -1,8 +1,8 @@
 This tutorial will use the official pgAdmin 4 container from
-https://cloud.docker.com/repository/docker/dpage/pgadmin4. We will execute the
+[Docker Hub](https://cloud.docker.com/repository/docker/dpage/pgadmin4). We will execute the
 **docker run** command, passing the required parameters for a basic pgAdmin
 configuration. For more details on the available configuration options, see the
-(pgAdmin Documentation)[https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html].
+[pgAdmin Documentation](https://www.pgadmin.org/docs/pgadmin4/latest/container_deployment.html).
 
 The command to run is shown below. Click it or copy and paste it into the
 terminal window to launch the container:
@@ -23,6 +23,8 @@ terminal window to launch the container:
   and tag to run.
 
 Once pgAdmin is running, you can login using the username and password specified.
-You can also connect to pgAdmin at:
 
-<pre>https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com</pre> 
+Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+
+You can also connect to pgAdmin by clicking 
+[here](https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/).
