@@ -1,25 +1,13 @@
 {
-  "title": "PostgreSQL Installation on Ubuntu Linux",
-  "description": "Installing PostgreSQL on Ubuntu Linux from apt.postgresql.org.",
+  "title": "pgAdmin 4 Installation using a Docker Container",
+  "description": "Installing pgAdmin 4 in a Docker Container on Linux.",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Configure the Package Repository",
+        "title": "Step 1 - Launch the Container",
         "text": "step1.md"
-      },
-      {
-        "title": "Step 2 - Install the Signing Key",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3 - Install PostgreSQL",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4 - Connect to PostgreSQL",
-        "text": "step4.md"
       }
     ],
     "intro": {
@@ -30,9 +18,12 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "showdashboard": true,
+    "dashboard": "Dashboard",
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "ubuntu1804"
+    "imageid": "docker"
   }
 }

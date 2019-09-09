@@ -1,1 +1,1 @@
-Congratulations! You have now installed PostgreSQL 11 on Ubuntu 18.04.
+Congratulations! You have now installed pgAdmin 4 in a Docker container.
