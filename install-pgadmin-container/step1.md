@@ -21,10 +21,3 @@ terminal window to launch the container:
   initial password to login to pgAdmin with.  
 * **-e "-d dpage/pgadmin4:latest"** - This directive specifies the container
   and tag to run.
-
-Once pgAdmin is running, you can login using the username and password specified.
-
-Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
-
-You can also connect to pgAdmin by clicking 
-[here](https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/).

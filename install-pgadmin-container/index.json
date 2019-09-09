@@ -2,12 +2,20 @@
   "title": "pgAdmin 4 Installation using a Docker Container",
   "description": "Installing pgAdmin 4 in a Docker Container on Linux.",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [
       {
         "title": "Step 1 - Launch the Container",
         "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Confirm the Container is Running",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Open pgAdmin",
+        "text": "step3.md"
       }
     ],
     "intro": {
