@@ -1,0 +1,38 @@
+{
+  "title": "PostgreSQL Installation on Ubuntu Linux",
+  "description": "Installing PostgreSQL on Ubuntu Linux from apt.postgresql.org.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Configure the Package Repository",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2 - Install the Signing Key",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Install PostgreSQL",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Connect to PostgreSQL",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu1804"
+  }
+}
