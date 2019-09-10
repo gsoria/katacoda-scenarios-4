@@ -21,3 +21,6 @@ terminal window to launch the container:
   initial password to login to pgAdmin with.  
 * **-e "-d dpage/pgadmin4:latest"** - This directive specifies the container
   and tag to run.
+
+Once the command has completed and the command prompt is shown again, click 
+**Continue** to move to the next step.
