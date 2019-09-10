@@ -11,7 +11,7 @@ terminal window to launch the container:
     -p 80:80 \
     -e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
     -e "PGADMIN_DEFAULT_PASSWORD=SuperSecret" \
-    -d dpage/pgadmin4:4.11`{{execute}}
+    -d dpage/pgadmin4:3.6`{{execute}}
 
 * **-p 80:80** - This directive maps port 80 of the container to port 80 of the
   host.
