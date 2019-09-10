@@ -11,7 +11,7 @@ terminal window to launch the container:
     -p 80:80 \
     -e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
     -e "PGADMIN_DEFAULT_PASSWORD=SuperSecret" \
-    -d dpage/pgadmin4:latest`{{execute}}
+    -d dpage/pgadmin4:4.12`{{execute}}
 
 * **-p 80:80** - This directive maps port 80 of the container to port 80 of the
   host.
@@ -22,5 +22,5 @@ terminal window to launch the container:
 * **-e "-d dpage/pgadmin4:latest"** - This directive specifies the container
   and tag to run.
 
-Once the command has completed and the command prompt is shown again, click 
+Once the command has completed and the command prompt is shown again, click
 **Continue** to move to the next step.
